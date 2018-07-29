@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.crystal-collector-row{
+    width: 30%;
+    padding: 20px;
+    background: orange;
+    margin: 10px;
+    }
+h2{
+    color: white;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+.instructions-row{
+    background: rgb(236, 210, 153);
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+.instructions{
+    color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+.random-number-wins-losses-row{
+    width: 50%;
+    margin: 10px;
+}
+.random-number-col{
+    margin-right: 5px;
+    background: green;
+    font-weight: 500;
+}
+.wins-losses-col{
+    margin-left: 5px;
+    background: rgb(16, 170, 231);
+}
+.mystyle{
+    color: black;
+}
+.crystals-row{
+    width: 65%;
+    margin: 10px;
+}
+.crystal-img-col{
+    margin-left: 5px;
+    margin-right: 5px;
+    background: white;
+    padding: 10px;
+}
+.totalscoreis-row{
+    background: #4aaaa5;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;   
+}
+.totalscoreis{
+    color: white;
+}
+.score-value-row{
+    background: #4aaaa5;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+
