@@ -51,13 +51,17 @@ function randomNumberGenerator(){
 function win_loss(){
     if(score === randomNumber){
         wins = wins + 1;
-        alert("You win.");
+        $("#wins").text(wins);
+        $("#textabove").text("You won!");
+        // alert("You win.");
         console.log("i am in if");
         reset();
     }
     else if(score > randomNumber){
-        losses = losses + 1;    
-        alert("You lose.");
+        losses = losses + 1; 
+        $("#losses").text(losses);
+        $("#textabove").text("You lost!");
+        // alert("You lose.");
         console.log("i am in else");
         reset();
     }
